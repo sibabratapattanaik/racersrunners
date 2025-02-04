@@ -56,18 +56,24 @@ footer {
     margin-top: auto;
 }
 
-#about {
+#activities {
     margin-bottom: 2em;
 }
 
-.image-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+#activities ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-.image-container img {
-    max-width: 30%;
-    height: auto;
-    margin: 0.5em;
+#activities ul li {
+    margin-bottom: 1em;
+}
+
+#activities ul ul {
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+#activities ul ul li {
+    margin-bottom: 0.5em;
 }
